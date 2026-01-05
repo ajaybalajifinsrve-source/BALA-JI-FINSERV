@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base target="_self">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bala Ji Finserve | Loan Hi Loan - Car, Personal & Home Loans</title>
+    <meta name="description" content="Get easy car loans, personal loans, and home loans with low interest rates, minimum documents, and fast approval. Apply today!">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#dc2626",
+                        "primary-dark": "#b91c1c",
+                        secondary: "#059669",
+                        "secondary-dark": "#047857",
+                        accent: "#f59e0b",
+                        "accent-dark": "#d97706",
+                        dark: "#1e293b",
+                        light: "#f8fafc"
+                    },
+                    fontFamily: {
+                        'sans': ['Poppins', 'system-ui', 'sans-serif'],
+                        'hindi': ['Noto Sans Devanagari', 'sans-serif']
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce-slow': 'bounce 2s infinite'
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-light text-gray-800 min-h-screen">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center py-4">
+                <!-- Logo and Brand -->
+                <div class="flex items-center space-x-3 mb-4 md:mb-0">
+                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                        <i class="fas fa-rupee-sign text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl md:text-3xl font-bold text-dark">
+                            <span class="text-primary">BALA JI</span> FINSERVE
+                        </h1>
+                        <div class="flex items-center space-x-2">
+                            <div class="h-1 w-8 bg-primary"></div>
+                            <p class="text-sm font-medium text-gray-600">LOAN HI LOAN</p>
+                            <div class="h-1 w-8 bg-primary"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="text-center md:text-right">
+                    <div class="flex items-center justify-center md:justify-end space-x-2 mb-2">
+                        <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                            <i class="fab fa-whatsapp text-green-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-600">Call/WhatsApp</p>
+                            <a href="tel:8571934118" class="text-lg font-bold text-dark hover:text-primary transition-colors">
+                                <i class="fas fa-phone-alt text-primary mr-1"></i> 8571934118
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-600">
+                        <i class="fas fa-map-marker-alt text-primary mr-1"></i> Near Railway Road, Tohana 125120
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="bg-gradient-to-r from-primary to-primary-dark text-white py-8 md:py-12">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 animate-pulse-slow">
+                    LOAN HI LOAN
+                </h2>
+                <p class="text-xl md:text-2xl mb-6 opacity-90">
+                    Car Loan • Personal Loan • Home Loan
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 mb-6">
+                    <div class="bg-white/20 backdrop-blur-sm rounded-full px-6 py-2">
+                        <i class="fas fa-check-circle mr-2"></i> Asaan Qistain
+                    </div>
+                    <div class="bg-white/20 backdrop-blur-sm rounded-full px-6 py-2">
+                        <i class="fas fa-check-circle mr-2"></i> Kam Markup
+                    </div>
+                    <div class="bg-white/20 backdrop-blur-sm rounded-full px-6 py-2">
+                        <i class="fas fa-check-circle mr-2"></i> Kam Documents
+                    </div>
+                    <div class="bg-white/20 backdrop-blur-sm rounded-full px-6 py-2">
+                        <i class="fas fa-check-circle mr-2"></i> Tez Approval
+                    </div>
+                </div>
+                <button class="bg-white text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg" onclick="scrollToApply()">
+                    AAJ HI APPLY KAREIN! <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loan Types Section -->
+    <section class="py-12 md:py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Car Loan Card -->
+                <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 shadow-lg border border-blue-200">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-blue-500 rounded-xl flex items-center justify-center mr-4">
+                            <i class="fas fa-car text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-blue-800">CAR LOAN</h3>
+                    </div>
+                    
+                    <div class="space-y-4 mb-6">
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-car text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-blue-800">New Car Loan</h4>
+                                <p class="text-sm text-gray-600">Brand new car financing</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-car-side text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-blue-800">Old / Used Car Loan</h4>
+                                <p class="text-sm text-gray-600">Pre-owned vehicle financing</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-star text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-green-800">Good Score Par Loan</h4>
+                                <p class="text-sm text-gray-600">Special rates for good credit score</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors" onclick="showLoanForm('car')">
+                        Apply for Car Loan
+                    </button>
+                </div>
+                
+                <!-- Personal Loan Card -->
+                <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 shadow-lg border border-green-200">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-green-500 rounded-xl flex items-center justify-center mr-4">
+                            <i class="fas fa-user-tie text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-green-800">PERSONAL LOAN</h3>
+                    </div>
+                    
+                    <div class="space-y-4 mb-6">
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-graduation-cap text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-green-800">Education</h4>
+                                <p class="text-sm text-gray-600">Study fees & expenses</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-pink-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-heart text-pink-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-pink-800">Shaadi</h4>
+                                <p class="text-sm text-gray-600">Wedding expenses</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-heartbeat text-red-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-red-800">Medical</h4>
+                                <p class="text-sm text-gray-600">Healthcare expenses</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-home text-yellow-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-yellow-800">Ghar ke Kharchay</h4>
+                                <p class="text-sm text-gray-600">Household expenses</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="w-full bg-green-600 text-white py-3 rounded-lg font-bold hover:bg-green-700 transition-colors" onclick="showLoanForm('personal')">
+                        Apply for Personal Loan
+                    </button>
+                </div>
+                
+                <!-- Home Loan Card -->
+                <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 shadow-lg border border-purple-200">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-purple-500 rounded-xl flex items-center justify-center mr-4">
+                            <i class="fas fa-home text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-purple-800">HOME LOAN</h3>
+                    </div>
+                    
+                    <div class="space-y-4 mb-6">
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-house-user text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-purple-800">Ghar Khareednay ke liye</h4>
+                                <p class="text-sm text-gray-600">For buying a house</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-hammer text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-purple-800">Ghar Banane ke liye</h4>
+                                <p class="text-sm text-gray-600">For constructing a house</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center bg-white rounded-lg p-4 shadow-sm">
+                            <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-paint-roller text-purple-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-purple-800">Renovation/Repair</h4>
+                                <p class="text-sm text-gray-600">Home improvement loans</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="w-full bg-purple-600 text-white py-3 rounded-lg font-bold hover:bg-purple-700 transition-colors" onclick="showLoanForm('home')">
+                        Apply for Home Loan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-12 md:py-16 bg-gradient-to-r from-gray-50 to-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">
+                    <span class="text-primary">KYUN</span> BALA JI FINSERVE?
+                </h2>
+                <p class="text-gray-600 text-lg">Hamare Special Features</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-rupee-sign text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-green-800 mb-2">Asaan Qistain</h3>
+                    <p class="text-gray-600">Easy monthly installments tailored to your budget</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-percentage text-red-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-red-800 mb-2">Kam Markup</h3>
+                    <p class="text-gray-600">Lowest interest rates in the market</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-file-alt text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">Kam Documents</h3>
+                    <p class="text-gray-600">Minimum documentation required</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-bolt text-yellow-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-yellow-800 mb-2">Tez Approval</h3>
+                    <p class="text-gray-600">Fast processing and quick disbursal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section id="applyForm" class="py-12 md:py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-bold text-dark mb-2">
+                        <span class="text-primary">LOAN APPLICATION</span> FORM
+                    </h2>
+                    <p class="text-gray-600">Fill this form and we'll contact you within 24 hours</p>
+                </div>
+                
+                <form id="loanForm" class="bg-gray-50 rounded-2xl p-6 md:p-8 shadow-lg">
+                    <div class="mb-6">
+                        <label class="block text-gray-700 mb-2 font-bold">
+                            <i class="fas fa-hand-pointer text-primary mr-2"></i>
+                            Select Loan Type *
+                        </label>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                            <button type="button" class="loan-type-btn bg-blue-100 border-2 border-blue-300 text-blue-800 py-3 rounded-lg font-bold hover:bg-blue-200 transition-colors" data-type="car">
+                                <i class="fas fa-car mr-2"></i> Car Loan
+                            </button>
+                            <button type="button" class="loan-type-btn bg-green-100 border-2 border-green-300 text-green-800 py-3 rounded-lg font-bold hover:bg-green-200 transition-colors" data-type="personal">
+                                <i class="fas fa-user-tie mr-2"></i> Personal Loan
+                            </button>
+                            <button type="button" class="loan-type-btn bg-purple-100 border-2 border-purple-300 text-purple-800 py-3 rounded-lg font-bold hover:bg-purple-200 transition-colors" data-type="home">
+                                <i class="fas fa-home mr-2"></i> Home Loan
+                            </button>
+                        </div>
+                        <input type="hidden" id="selectedLoanType" name="loanType" required>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label class="block text-gray-700 mb-2 font-medium">Full Name *</label>
+                            <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Apna naam likhein">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2 font-medium">Mobile Number *</label>
+                            <input type="tel" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="8571934118">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2 font-medium">Email Address</label>
+                            <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="email@example.com">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2 font-medium">Loan Amount (₹) *</label>
+                            <input type="number" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="50000">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2 font-medium">City *</label>
+                            <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Tohana">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-2 font-medium">Monthly Income (₹)</label>
+                            <input type="number" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="25000">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-gray-700 mb-2 font-medium">Loan Purpose *</label>
+                        <textarea required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" rows="3" placeholder="Apne loan ka purpose likhein..."></textarea>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-start">
+                            <input type="checkbox" required class="mt-1 mr-3" id="consent">
+                            <label for="consent" class="text-gray-700">
+                                I agree to receive calls, WhatsApp messages, and emails from Bala Ji Finserve regarding my loan application. I confirm that all information provided is accurate.
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-primary text-white py-4 rounded-lg font-bold text-lg hover:bg-primary-dark transition-colors shadow-lg">
+                        <i class="fas fa-paper-plane mr-2"></i> SUBMIT APPLICATION
+                    </button>
+                    
+                    <p class="text-center text-gray-600 mt-4 text-sm">
+                        Ya fir direct WhatsApp karein: 
+                        <a href="https://wa.me/918571934118" class="text-green-600 font-bold hover:underline">
+                            <i class="fab fa-whatsapp"></i> 8571934118
+                        </a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location -->
+    <section class="py-12 md:py-16 bg-gradient-to-r from-dark to-gray-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">
+                        <span class="text-primary">CONTACT</span> US
+                    </h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-phone-alt text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-1">Call/WhatsApp</h3>
+                                <a href="tel:8571934118" class="text-2xl font-bold hover:text-primary transition-colors">
+                                    8571934118
+                                </a>
+                                <p class="text-gray-300 mt-1">24x7 Available</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-1">Office Address</h3>
+                                <p class="text-lg">Near Railway Road</p>
+                                <p class="text-lg">Tohana 125120</p>
+                                <p class="text-gray-300 mt-1">Haryana, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-clock text-primary text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-1">Working Hours</h3>
+                                <p class="text-lg">Monday - Saturday: 9:00 AM - 8:00 PM</p>
+                                <p class="text-lg">Sunday: 10:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">
+                        <span class="text-primary">QUICK</span> ENQUIRY
+                    </h2>
+                    
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                        <div class="space-y-4">
+                            <input type="text" placeholder="Your Name" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                            <input type="tel" placeholder="Mobile Number" class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-primary">
+                            <select class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-primary">
+                                <option value="" class="text-gray-800">Select Loan Type</option>
+                                <option value="car" class="text-gray-800">Car Loan</option>
+                                <option value="personal" class="text-gray-800">Personal Loan</option>
+                                <option value="home" class="text-gray-800">Home Loan</option>
+                            </select>
+                            <button class="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-primary-dark transition-colors">
+                                <i class="fas fa-paper-plane mr-2"></i> SEND ENQUIRY
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                            <i class="fas fa-rupee-sign text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold">BALA JI FINSERVE</h3>
+                            <p class="text-sm text-gray-400">LOAN HI LOAN</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400">© 2024 Bala Ji Finserve. All rights reserved.</p>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="text-lg font-bold mb-2">
+                        <i class="fas fa-phone-alt text-primary mr-2"></i>
+                        8571934118
+                    </p>
+                    <div class="flex space-x-4 justify-center md:justify-end">
+                        <a href="https://wa.me/918571934118" class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-colors">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="tel:8571934118" class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    Disclaimer: Loan approval is subject to eligibility criteria and documentation. Interest rates may vary based on credit profile.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-2xl p-8 max-w-md mx-4">
+            <div class="text-center">
+                <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-check text-green-600 text-3xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-dark mb-4">Application Submitted!</h3>
+                <p class="text-gray-600 mb-6">Thank you for your loan application. Our representative will contact you within 24 hours.</p>
+                <button onclick="closeModal()" class="bg-primary text-white px-8 py-3 rounded-lg font-bold hover:bg-primary-dark transition-colors">
+                    OK
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Define data at the beginning
+        const loanTypes = [
+            { "id": "car", "name": "Car Loan", "color": "blue" },
+            { "id": "personal", "name": "Personal Loan", "color": "green" },
+            { "id": "home", "name": "Home Loan", "color": "purple" }
+        ];
+
+        // Navigation functions
+        function scrollToApply() {
+            document.getElementById('applyForm').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Loan type selection
+        function showLoanForm(loanType) {
+            const buttons = document.querySelectorAll('.loan-type-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('border-primary', 'ring-2', 'ring-primary');
+                btn.classList.add('border-transparent');
+            });
+            
+            const selectedBtn = document.querySelector(`[data-type="${loanType}"]`);
+            selectedBtn.classList.add('border-primary', 'ring-2', 'ring-primary');
+            selectedBtn.classList.remove('border-transparent');
+            
+            document.getElementById('selectedLoanType').value = loanType;
+            scrollToApply();
+        }
+
+        // Initialize loan type buttons
+        document.querySelectorAll('.loan-type-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                showLoanForm(this.dataset.type);
+            });
+        });
+
+        // Form submission
+        document.getElementById('loanForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Validate loan type selection
+            const loanType = document.getElementById('selectedLoanType').value;
+            if (!loanType) {
+                alert('Please select a loan type');
+                return;
+            }
+            
+            // Show success modal
+            document.getElementById('successModal').classList.remove('hidden');
+            
+            // Reset form
+            this.reset();
+            document.querySelectorAll('.loan-type-btn').forEach(btn => {
+                btn.classList.remove('border-primary', 'ring-2', 'ring-primary');
+                btn.classList.add('border-transparent');
+            });
+        });
+
+        // Modal functions
+        function closeModal() {
+            document.getElementById('successModal').classList.add('hidden');
+        }
+
+        // FAQ toggle
+        function toggleFAQ(id) {
+            const faq = document.getElementById(`faq-${id}`);
+            const icon = faq.previousElementSibling.querySelector('i');
+            
+            if (faq.classList.contains('hidden')) {
+                faq.classList.remove('hidden');
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                faq.classList.add('hidden');
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            }
+        }
+
+        // WhatsApp redirect
+        function redirectToWhatsApp() {
+            window.open('https://wa.me/918571934118', '_blank');
+        }
+
+        // Auto-select first loan type
+        document.addEventListener('DOMContentLoaded', function() {
+            showLoanForm('car');
+        });
+    </script>
+</body>
+</html>
